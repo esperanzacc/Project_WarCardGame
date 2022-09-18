@@ -15,6 +15,8 @@ struct ContentView: View {
   @State private var cpuCard = "card9"
   @State private var playerScore = 0
   @State private var cpuScore = 0
+  @State private var roundTime = 0
+  @State private var showingAlert = false
   
     var body: some View {
       ZStack {
@@ -41,6 +43,7 @@ struct ContentView: View {
             // Update the cards
             playerCard = "card" + String(playerRand)
             cpuCard = "card" + String(cpuRand)
+            roundTime += 1
             
             // Update the score
             if playerRand > cpuRand {
@@ -48,8 +51,15 @@ struct ContentView: View {
             } else if cpuRand > playerRand {
               cpuScore += 1
             }
+            
+            if roundTime >= 10 && (playerScore != cpuScore) {
+              showingAlert = true
+            }
           } label: {
             Image("dealbutton")
+              .alert("Game Over!\n \(playerScore > cpuScore ? "Player wins the game!" : "Cpu wins the game!")", isPresented: $showingAlert) {
+                Button("OK", role: .cancel) {}
+              }
           }
           
           Spacer()
