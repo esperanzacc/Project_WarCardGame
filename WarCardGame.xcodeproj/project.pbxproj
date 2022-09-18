@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C874C1428D799D200EC0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6C97120528C74BFF00AE4227 /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97120828C74BFF00AE4227 /* WarCardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGameApp.swift; sourceTree = "<group>"; };
 		6C97120A28C74C0000AE4227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		6C97120728C74BFF00AE4227 /* WarCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				6C874C1428D799D200EC0EFE /* Info.plist */,
 				6C97120828C74BFF00AE4227 /* WarCardGameApp.swift */,
 				6C97120A28C74C0000AE4227 /* ContentView.swift */,
 				6C97120C28C74C0600AE4227 /* Assets.xcassets */,
@@ -272,6 +274,7 @@
 				DEVELOPMENT_TEAM = 7669655F54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +304,7 @@
 				DEVELOPMENT_TEAM = 7669655F54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
