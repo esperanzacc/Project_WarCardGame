@@ -23,10 +23,10 @@ Open your terminal and type
 Now, you can see the folder on your desktop.
 
 
-#### Note:
+### Note:
 State property: Adding the @State property wrapper to a property will signify that it's a piece of data that the view code relies upon to display the UI. Futhermore, it will allow you to change the data it stores.
 
-#### Tools:
+### Tools:
 Generate a App Icon: https://appicon.com
 Generate a Gif: https://express.adobe.com/zh-Hant-TW/tools/convert-to-gif
 
